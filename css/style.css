@@ -743,22 +743,14 @@ textarea {
   width: 18px;
   height: 18px;
   fill: var(--text-color-4);
+  left: 52px;
 }
 .person {
-  width: 12px;
-  height: 12px;
-  padding: 14px 15px;
-  fill: var(--text-color-4);
+  top: 104px;
 }
 .phone {
-  width: 13px;
-  height: 13px;
-  padding: 13.26px 14.27px 13.74px 14.27px;
-  fill: var(--text-color-4);
+  top: 172px;
 }
 .email {
-  width: 15px;
-  height: 12px;
-  padding: 14px 13.5px;
-  fill: var(--text-color-4);
+  top: 240px;
 }
