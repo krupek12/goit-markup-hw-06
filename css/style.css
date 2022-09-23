@@ -743,7 +743,6 @@ textarea {
   color: var(--text-color-3);
   line-height: 1.71;
   margin-bottom: 30px;
-
   margin-left: 40px;
 }
 .blue-txt {
@@ -753,6 +752,8 @@ textarea {
 .form-check {
   width: 16px;
   height: 15px;
+  border-radius: 2px;
+  background-color: var(--logo-color);
 }
 .form-btn {
   width: 200px;
