@@ -730,9 +730,7 @@ textarea {
 .modal-chbox {
   display: flex;
   flex-direction: row;
-  margin: 0 auto 30px;
   gap: 7px;
-  text-align: center;
 }
 .chbox {
   appearance: none;
@@ -743,7 +741,10 @@ textarea {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text-color-3);
-  display: block;
+  line-height: 1.71;
+  margin-bottom: 30px;
+
+  margin-left: 40px;
 }
 .blue-txt {
   color: var(--logo-color);
