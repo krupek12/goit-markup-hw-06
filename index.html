@@ -528,53 +528,46 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>X</button>
-        <form>
+        <form class="form-label">
           <p class="form-hd">Zostaw swoje dane w formularzu poniżej</p>
-          <label class="form-txt" for="user_name">
-            Imie
-            <input class="frame" type="name" name="imie" />
-            <svg class="form-svg name" width="12" height="12">
-              <use
-                href="./images/icons.svg.svg#icon-person"
-                width="6"
-                height="6"
-              ></use>
-            </svg>
-          </label>
-          <label class="form-txt" for="user_phone">
-            Telefon
-            <input class="frame" type="tel" name="telefon" />
-            <svg class="form-svg phone" width="13" height="13">
-              <use
-                href="./images/icons.svg.svg#icon-phone"
-                width="6.5"
-                height="6.5"
-              ></use>
-            </svg>
-          </label>
-          <label class="form-txt">
-            Email
-            <input class="frame" type="email" name="email" />
-            <svg class="form-svg email" width="15" height="12">
-              <use
-                href="./images/icons.svg.svg#icon-email"
-                width="7.5"
-                height="6"
-              ></use>
-            </svg>
-          </label>
-          <label class="form-txt">
-            Komentarz
-            <textarea
-              class="frame frame-coment"
-              name="komentarz"
-              placeholder="Wprowadź tekst"
-            ></textarea>
-          </label>
+          <label class="form-txt" for="user_name">Imie</label>
+          <input type="name" name="imie" class="frame" />
+          <svg class="form-svg name" width="12" height="12">
+            <use
+              href="./images/icons.svg.svg#icon-person"
+              width="6"
+              height="6"
+            ></use>
+          </svg>
+          <label class="form-txt" for="user_phone">Telefon</label>
+          <input type="tel" name="telefon" class="frame" />
+          <svg class="form-svg phone" width="13" height="13">
+            <use
+              href="./images/icons.svg.svg#icon-phone"
+              width="6.5"
+              height="6.5"
+            ></use>
+          </svg>
+          <label class="form-txt" for="user_email">Email</label>
+          <input type="email" name="email" class="frame" />
+          <svg class="form-svg email" width="15" height="12">
+            <use
+              href="./images/icons.svg.svg#icon-email"
+              width="7.5"
+              height="6"
+            ></use>
+          </svg>
+          <label class="form-txt" for="user_text">Komentarz</label>
+          <textarea
+            class="frame frame-coment"
+            name="komentarz"
+            placeholder="Wprowadź tekst"
+          ></textarea>
+
           <label class="form-txt-down">
             <input type="checkbox" name="oświadczenie" class="chbox" />
             <span></span>
-            <svg>
+            <svg width="16" heigh="15">
               <use xlink:href="./images/icons.svg.svg#icon-Vector"></use>
             </svg>
             Oświadczam iż akceptuję <a class="blue-txt" href="#">Regulamin</a> i
