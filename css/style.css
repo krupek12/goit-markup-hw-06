@@ -732,19 +732,23 @@ textarea {
 }
 .form-svg {
   position: absolute;
+  display: flex;
 }
 .person {
   width: 12px;
   height: 12px;
   padding: 14px 15px;
+  fill: var(--text-color-4);
 }
 .phone {
   width: 13px;
   height: 13px;
   padding: 13.26px 14.27px 13.74px 14.27px;
+  fill: var(--text-color-4);
 }
 .email {
   width: 15px;
   height: 12px;
   padding: 14px 13.5px;
+  fill: var(--text-color-4);
 }
