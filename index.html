@@ -530,38 +530,38 @@
         <button type="button" class="close-btn" data-modal-close>X</button>
         <form>
           <p class="form-hd">Zostaw swoje dane w formularzu poniżej</p>
-          <label class="form-txt">
+          <label class="form-txt" for="user_name">
             Imie
-            <svg>
-              <use
-                xlink:href="./images/icons.svg.svg#icon-person"
-                width="12"
-                height="12"
-              ></use>
-            </svg>
             <input class="frame" type="name" name="imie" />
-          </label>
-          <label class="form-txt">
-            Telefon
-            <svg>
+            <svg class="form-svg name" width="12" height="12">
               <use
-                xlink:href="./images/icons.svg.svg#icon-phone"
-                width="13"
-                height="13"
+                href="./images/icons.svg.svg#icon-person"
+                width="6"
+                height="6"
               ></use>
             </svg>
+          </label>
+          <label class="form-txt" for="user_phone">
+            Telefon
             <input class="frame" type="tel" name="telefon" />
+            <svg class="form-svg phone" width="13" height="13">
+              <use
+                href="./images/icons.svg.svg#icon-phone"
+                width="6.5"
+                height="6.5"
+              ></use>
+            </svg>
           </label>
           <label class="form-txt">
             Email
-            <svg>
+            <input class="frame" type="email" name="email" />
+            <svg class="form-svg email" width="15" height="12">
               <use
-                xlink:href="./images/icons.svg.svg#icon-email"
-                width="15"
-                height="12"
+                href="./images/icons.svg.svg#icon-email"
+                width="7.5"
+                height="6"
               ></use>
             </svg>
-            <input class="frame" type="email" name="email" />
           </label>
           <label class="form-txt">
             Komentarz
