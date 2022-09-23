@@ -740,6 +740,9 @@ textarea {
 }
 .form-svg {
   position: absolute;
+  width: 18px;
+  height: 18px;
+  fill: var(--text-color-4);
 }
 .person {
   width: 12px;
