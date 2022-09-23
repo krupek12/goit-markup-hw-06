@@ -748,7 +748,10 @@ textarea {
   color: var(--logo-color);
   text-decoration: underline;
 }
-
+.form-check {
+  width: 16px;
+  height: 15px;
+}
 .form-btn {
   width: 200px;
   height: 50px;
