@@ -733,11 +733,14 @@ textarea {
 .modal-chbox {
   display: flex;
   flex-direction: row;
-  gap: 7px;
+  gap: 9px;
 }
 .chbox {
   appearance: none;
   -webkit-apperance: none;
+}
+.modal-chbox {
+  margin: 0 auto 30px;
 }
 .form-txt-down {
   font-weight: 400;
@@ -745,8 +748,6 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--text-color-3);
   line-height: 1.71;
-  margin-bottom: 30px;
-  margin-left: 40px;
 }
 .blue-txt {
   color: var(--logo-color);
@@ -759,7 +760,6 @@ textarea {
   fill: var(--text-color-2);
   visibility: hidden;
   position: relative;
-  display: block;
   opacity: 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -769,9 +769,9 @@ textarea {
   background-color: var(--text-color-2);
   position: absolute;
   width: 16px;
-  min-height: 16px;
-  opacity: 1;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 16px;
+  left: 55px;
+  bottom: 126px;
 }
 /*--------button submit---------*/
 .form-btn {
