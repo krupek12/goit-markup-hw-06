@@ -710,23 +710,8 @@ textarea {
   width: 18px;
   height: 18px;
   fill: var(--text-color-4);
-  left: 52px;
-}
-.person {
-  top: 104px;
-  fill: var(--text-color-4);
-}
-.phone {
-  top: 172px;
-  fill: var(--text-color-4);
-}
-.email {
-  top: 240px;
-  fill: var(--text-color-4);
-}
-.form-check {
-  width: 16px;
-  height: 15px;
+  left: 12px;
+  top: 11px;
 }
 
 /*------ checkbox-----*/
