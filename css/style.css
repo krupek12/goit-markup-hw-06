@@ -726,6 +726,8 @@ textarea {
 }
 .modal-chbox {
   margin: 0 auto 30px;
+  height: 24px;
+  align-items: start;
 }
 .form-txt-down {
   font-weight: 400;
@@ -743,6 +745,7 @@ textarea {
   width: 16px;
   height: 16px;
   background-color: var(--text-color-2);
+  fill: var(--text-color-2);
   border-radius: 2px;
   position: absolute;
   content: "";
