@@ -763,6 +763,8 @@ textarea {
   border-radius: 2px;
   background-color: var(--text-color-2);
   position: absolute;
+  width: 16px;
+  min-height: 15px;
 }
 
 .form-btn {
