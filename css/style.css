@@ -796,7 +796,7 @@ input:checked + .form-check::before {
 }
 /*---active----*/
 
-.form-svg:focus-within {
+label > .form-svg:focus-within {
   fill: var(--logo-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
