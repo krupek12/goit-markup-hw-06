@@ -765,6 +765,8 @@ textarea {
   position: absolute;
   width: 16px;
   min-height: 15px;
+  justify-content: center;
+  align-items: center;
   top: 2px;
 }
 
