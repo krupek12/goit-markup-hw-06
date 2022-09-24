@@ -561,12 +561,17 @@
             placeholder="Wprowadź tekst"
           ></textarea>
           <div class="modal-chbox">
-            <input type="checkbox" name="oświadczenie" class="chbox" checked/>
-            <!--<span class="uncheck"></span>-->
-            <svg class="form-check" width="16" height="16">
+            <input
+              class="chbox"
+              id="user-policy"
+              type="checkbox"
+              name="policy"
+              checked
+            />
+            <!--<svg class="form-check" width="16" height="16">
               <use href="./images/symbol-defs.svg#icon-Vector"></use>
-            </svg>
-            <label class="form-txt-down">
+            </svg>-->
+            <label for="user-policy" class="form-txt-down">
               Oświadczam iż akceptuję
               <a class="blue-txt" href="#">Regulamin</a> i
               <a class="blue-txt" href="#">Politykę Prywatności.</a>

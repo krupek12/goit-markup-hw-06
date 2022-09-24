@@ -723,11 +723,8 @@ textarea {
 .chbox {
   appearance: none;
   -webkit-apperance: none;
-}
-.modal-chbox {
   margin: 0 auto 30px;
   height: 24px;
-  align-items: start;
 }
 .form-txt-down {
   font-weight: 400;
@@ -740,26 +737,22 @@ textarea {
   color: var(--logo-color);
   text-decoration: underline;
 }
-.form-check::before {
-  border: 1px solid var(--text-color-4);
+.form-txt-down::before {
+  display: inline-block;
+  content: "";
   width: 16px;
   height: 16px;
-  background-color: var(--text-color-2);
+  border: 1px solid var(--text-color-4);
+  border-radius: 2px;
+}
+.chbox:checked + .form-txt-down::before {
+  background-color: var(--logo-color);
+  border: none;
+  background-image: url(../images/symbol-defs.svg#icon-Vector);
+  background-repeat: no-repeat;
   fill: var(--text-color-2);
   border-radius: 2px;
-  position: absolute;
-  display: block;
-  content: "";
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
-input:checked + .form-check::before {
-  content: "";
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.95703 4.75166L1.88825 4.68604L1.81923 4.75141L0.93123 5.59258L0.854858 5.66492L0.930974 5.73753L4.42671 9.07236L4.49574 9.1382L4.56476 9.07236L12.069 1.91352L12.1449 1.84116L12.069 1.76881L11.1873 0.927644L11.1183 0.861826L11.0493 0.927611L4.49577 7.17353L1.95703 4.75166Z' fill='white' stroke='white' stroke-width='0.2'/%3E%3C/svg%3E");
-    background-color: var(--logo-color);
-  }
-  
-
 /*
 .uncheck {
   border: 1px solid var(--text-color-4);
