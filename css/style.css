@@ -752,11 +752,12 @@ textarea {
 }
 .form-check {
   width: 16px;
-  height: 15px;
+  height: 16px;
   border-radius: 2px;
   fill: var(--text-color-2);
   visibility: hidden;
-  position: absolute;
+  position: relative;
+  display: block;
   opacity: 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -766,11 +767,11 @@ textarea {
   background-color: var(--text-color-2);
   position: absolute;
   width: 16px;
-  min-height: 15px;
+  min-height: 16px;
   opacity: 1;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-input:checked + .form-check {
+input:checked .form-check {
   background-color: var(--logo-color);
   fill: var(--text-color-2);
   border: none;
@@ -801,7 +802,7 @@ input:checked + .form-check {
 }
 /*---active----*/
 
-.frame:focus-within > .form-svg {
+.form-txt:focus-within {
   border: 1px solid var(--logo-color);
   fill: var(--logo-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
