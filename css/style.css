@@ -727,6 +727,7 @@ textarea {
   width: 16px;
   height: 15px;
 }
+
 /*------ checkbox-----*/
 .modal-chbox {
   display: flex;
@@ -802,8 +803,11 @@ input:checked .form-check {
 }
 /*---active----*/
 
-.form-txt:focus-within {
-  border: 1px solid var(--logo-color);
+.form-txt:focus-within > .form-svg {
   fill: var(--logo-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.frame:focus-within {
+  border: 1px solid var(--logo-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
