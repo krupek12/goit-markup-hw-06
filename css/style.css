@@ -718,7 +718,6 @@ textarea {
 .modal-chbox {
   display: flex;
   flex-direction: row;
-  gap: 9px;
 }
 .chbox {
   appearance: none;
@@ -738,18 +737,22 @@ textarea {
   text-decoration: underline;
 }
 .form-txt-down::before {
-  display: inline-block;
+  display: block;
   content: "";
+  position: absolute;
   width: 16px;
   height: 16px;
   border: 1px solid var(--text-color-4);
   border-radius: 2px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 54px;
+  bottom: 127px;
 }
 .chbox:checked + .form-txt-down::before {
   border: none;
-  background-image: url("images/icons.svg#icon-check");
-  background-repeat: no-repeat;
+  background-image: url("./images/icons.svg#icon-check");
 }
 
 /*--------button submit---------*/
