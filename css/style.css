@@ -782,7 +782,7 @@ textarea {
 }
 /*---active----*/
 
-label:focus-within > .form-svg {
+.form-svg:focus {
   fill: var(--logo-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
