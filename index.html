@@ -530,37 +530,40 @@
         <button type="button" class="close-btn" data-modal-close>X</button>
         <form class="form-label">
           <p class="form-hd">Zostaw swoje dane w formularzu poniżej</p>
-          <label class="form-txt" for="user_name"
+          <label class="label form-txt" for="user_name"
             >Imie
-            <svg class="form-svg person" width="18" height="18">
+            <svg class="form-svg" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
+            <input id="user_name" type="name" name="imie" class="frame" />
           </label>
-          <input id="user_name" type="name" name="imie" class="frame" />
 
-          <label class="form-txt" for="user_phone"
+          <label class="label form-txt" for="user_phone"
             >Telefon
-            <svg class="form-svg phone" width="18" height="18">
+            <svg class="form-svg" width="18" height="18">
               <use href="images/icons.svg#icon-phone"></use>
             </svg>
+            <input id="user_phone" type="tel" name="telefon" class="frame" />
           </label>
-          <input id="user_phone" type="tel" name="telefon" class="frame" />
 
-          <label class="form-txt" for="user_email"
+          <label class="label form-txt" for="user_email"
             >Email
-            <svg class="form-svg email" width="15" height="12">
+            <svg class="form-svg" width="15" height="12">
               <use href="images/icons.svg#icon-email"></use>
             </svg>
+            <input id="user_email" type="email" name="email" class="frame" />
           </label>
-          <input id="user_email" type="email" name="email" class="frame" />
 
-          <label class="form-txt" for="user_text">Komentarz</label>
+          <label class="label form-txt" for="user_text">Komentarz</label>
           <textarea
             class="frame frame-coment"
             name="komentarz"
             placeholder="Wprowadź tekst"
           ></textarea>
-          <div class="modal-chbox">
+          <label for="user-policy" class="form-txt-down">
+            Oświadczam iż akceptuję
+            <a class="blue-txt" href="#">Regulamin</a> i
+            <a class="blue-txt" href="#">Politykę Prywatności.</a>
             <input
               class="chbox"
               id="user-policy"
@@ -568,15 +571,7 @@
               name="policy"
               checked
             />
-            <!--<svg class="form-check" width="16" height="16">
-              <use href="./images/symbol-defs.svg#icon-Vector"></use>
-            </svg>-->
-            <label for="user-policy" class="form-txt-down">
-              Oświadczam iż akceptuję
-              <a class="blue-txt" href="#">Regulamin</a> i
-              <a class="blue-txt" href="#">Politykę Prywatności.</a>
-            </label>
-          </div>
+          </label>
           <button class="form-btn text-btn" type="submit">Wyślij</button>
         </form>
       </div>

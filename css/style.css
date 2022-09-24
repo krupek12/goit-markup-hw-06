@@ -651,10 +651,11 @@ img {
   padding: 49px 45px 49px 24px;
 }
 /*----------formularze----------*/
-.form-label {
+.label {
   display: flex;
   flex-direction: column;
-  margin: 2px auto 0;
+  column-gap: 28px;
+  margin-left: 40px;
 }
 .form-hd {
   font-weight: 700;
@@ -663,7 +664,7 @@ img {
   color: var(--text-color-4);
   text-align: center;
   padding-top: 40px;
-  margin: 0;
+  margin-bottom: 12px;
 }
 .form-txt {
   font-weight: 400;
@@ -671,10 +672,6 @@ img {
   line-height: 1.16;
   color: var(--text-color-3);
   margin-top: 10px;
-  margin-left: 42px;
-  margin-top: 10px;
-  padding-bottom: 4px;
-  position: relative;
 }
 .frame {
   width: 448px;
@@ -683,14 +680,14 @@ img {
   border-radius: 4px;
   outline: none;
   padding: 0 40px;
-  margin-left: 40px;
+  margin-top: 4px;
 }
 .frame-coment {
   height: 120px;
-  margin-bottom: 20px;
   resize: none;
-  padding-left: 16px;
-  padding-top: 12px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 ::placeholder {
@@ -726,11 +723,16 @@ textarea {
   height: 24px;
 }
 .form-txt-down {
+  display: flex;
+  height: 24px;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text-color-3);
   line-height: 1.71;
+  margin-left: 77px;
+  padding: 0;
+  margin-bottom: 30px;
 }
 .blue-txt {
   color: var(--logo-color);
@@ -748,7 +750,8 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   left: 54px;
-  bottom: 127px;
+  bottom: 122px;
+  cursor: pointer;
 }
 .chbox:checked + .form-txt-down::before {
   border: none;
