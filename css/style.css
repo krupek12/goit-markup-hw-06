@@ -755,8 +755,9 @@ textarea {
   border-radius: 2px;
   fill: var(--text-color-2);
   visibility: hidden;
-  position: relative;
-  top: 2px;
+  position: absolute;
+  opacity: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .uncheck {
   border: 1px solid var(--text-color-4);
@@ -767,7 +768,8 @@ textarea {
   min-height: 15px;
   justify-content: center;
   align-items: center;
-  top: 2px;
+  opacity: 1;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 input:checked + .form-check {
   background-color: var(--logo-color);
@@ -775,7 +777,7 @@ input:checked + .form-check {
   border: none;
   border-radius: 2px;
   cursor: pointer;
-
+  opacity: 0;
 }
 .form-btn {
   width: 200px;
