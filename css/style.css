@@ -670,7 +670,7 @@ img {
   color: var(--text-color-4);
   text-align: center;
   padding-top: 40px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 .form-txt {
   font-weight: 400;
@@ -692,7 +692,7 @@ img {
   height: 120px;
   resize: none;
   padding: 12px 16px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-left: 40px;
 }
 
@@ -726,15 +726,15 @@ textarea {
 }
 
 /*------ checkbox-----*/
-/*
-.modal-chbox {
+
+.form-checkbox {
   display: flex;
   flex-direction: row;
-}*/
+  width: 100%;
+}
 .chbox {
   appearance: none;
   -webkit-apperance: none;
-  margin: 0 auto 30px;
   height: 24px;
 }
 .form-txt-down {
@@ -746,8 +746,9 @@ textarea {
   color: var(--text-color-3);
   line-height: 1.71;
   margin-left: 77px;
+  margin-top: 20px;
+  width: 100%;
   padding: 0;
-  margin-bottom: 30px;
 }
 .blue-txt {
   color: var(--logo-color);
@@ -763,8 +764,8 @@ textarea {
   border: 1px solid var(--text-color-4);
   border-radius: 2px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  left: 54px;
-  bottom: 122px;
+  left: 57px;
+  bottom: 127px;
   cursor: pointer;
 }
 .chbox:checked + .form-txt-down::before {
@@ -776,8 +777,8 @@ textarea {
   width: 16px;
   height: 16px;
   position: absolute;
-  left: 54px;
-  bottom: 122px;
+  left: 57px;
+  bottom: 127px;
 }
 
 /*--------button submit---------*/
@@ -793,6 +794,7 @@ textarea {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-bottom: 40px;
+  margin-top: 30px;
   margin-left: 164px;
   padding: 0;
 }
