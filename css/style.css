@@ -713,16 +713,16 @@ textarea {
   width: 18px;
   height: 18px;
   fill: var(--text-color-4);
-  left: 55px;
+  left: 54px;
 }
 .person {
-  top: 112px;
+  top: 104px;
 }
 .phone {
-  top: 180px;
+  top: 172px;
 }
 .email {
-  top: 248px;
+  top: 243px;
 }
 
 /*------ checkbox-----*/
@@ -772,6 +772,7 @@ textarea {
   border: none;
   background-color: var(--logo-color);
   background-image: url(./images/icons.svg#icon-Vector);
+  fill: var(--text-color-2);
   background-repeat: no-repeat;
   background-position: center;
   width: 16px;
