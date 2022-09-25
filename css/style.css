@@ -753,6 +753,8 @@ textarea {
 .blue-txt {
   color: var(--logo-color);
   text-decoration: underline;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .form-txt-down::before {
