@@ -813,6 +813,9 @@ label:focus-within > svg {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*-----------form-footer-------------*/
+.footer-form {
+  position: relative;
+}
 .footer-frame {
   width: 358px;
   height: 50px;
@@ -822,20 +825,26 @@ label:focus-within > svg {
   background-color: var(--box-1-color);
 }
 .footer-btn {
+  display: block;
+  position: absolute;
+  flex-direction: column;
   width: 200px;
   height: 50px;
   background-color: var(--logo-color);
   border-radius: 4px;
   border: none;
-  margin-left: 12px;
-  margin-bottom: 94px;
-}
-.ft-btn-tx {
+  left: 370px;
+  bottom: 0px;
+  /*teks guzika*/
   color: var(--text-color-2);
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 42px;
 }
 .svg-send {
   width: 24px;
