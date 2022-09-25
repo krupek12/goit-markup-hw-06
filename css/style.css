@@ -771,7 +771,7 @@ textarea {
 .chbox:checked + .form-txt-down::before {
   border: none;
   background-color: var(--logo-color);
-  background-image: url(../images/icons.svg#icon-Vector);
+  background-image: url(./images/icons.svg#icon-Vector);
   background-repeat: no-repeat;
   background-position: center;
   width: 16px;
