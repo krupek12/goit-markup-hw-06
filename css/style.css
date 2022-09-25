@@ -651,6 +651,11 @@ img {
   padding: 49px 45px 49px 24px;
 }
 /*----------formularze----------*/
+.modal-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
 .label {
   display: flex;
   flex-direction: column;
