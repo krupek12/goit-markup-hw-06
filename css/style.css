@@ -768,7 +768,6 @@ textarea {
   cursor: pointer;
 }
 .chbox:checked + .form-txt-down::before {
-  border: none;
   background-image: url(./images/icons.svg#icon-check);
 }
 
