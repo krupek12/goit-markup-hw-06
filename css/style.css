@@ -775,6 +775,7 @@ textarea {
   fill: var(--text-color-2);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   width: 16px;
   height: 16px;
   position: absolute;
