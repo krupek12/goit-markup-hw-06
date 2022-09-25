@@ -855,6 +855,7 @@ label:focus-within > svg {
   position: absolute;
   right: 518px;
   bottom: 13px;
+  display: flex;
 }
 input::placeholder {
   font-size: 16px;
