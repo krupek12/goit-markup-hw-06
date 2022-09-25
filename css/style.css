@@ -696,7 +696,7 @@ img {
   margin-left: 40px;
 }
 
-::placeholder {
+textarea::placeholder {
   line-height: 1.16;
   font-family: Roboto;
   font-weight: 400;
@@ -716,10 +716,10 @@ textarea {
   left: 55px;
 }
 .person {
-  top: 110px;
+  top: 112px;
 }
 .phone {
-  top: 178px;
+  top: 180px;
 }
 .email {
   top: 248px;
@@ -819,6 +819,7 @@ label:focus-within > svg {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 15px 16px;
+  background-color: var(--box-1-color);
 }
 .footer-btn {
   width: 200px;
@@ -838,4 +839,11 @@ label:focus-within > svg {
   width: 24px;
   height: 24px;
   position: absolute;
+}
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
