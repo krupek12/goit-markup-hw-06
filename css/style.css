@@ -729,7 +729,6 @@ textarea {
 .form-checkbox {
   display: flex;
   flex-direction: row;
-  
 }
 .chbox {
   appearance: none;
@@ -762,8 +761,6 @@ textarea {
   border: 1px solid var(--text-color-4);
   border-radius: 2px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-repeat: no-repeat;
-  background-position: center;
   left: 54px;
   bottom: 120px;
   cursor: pointer;
@@ -771,7 +768,7 @@ textarea {
 .chbox:checked + .form-txt-down::before {
   border: none;
   background-color: var(--logo-color);
-  background-image: url("./images/icons.svg#icon-Vector");
+  background-image: url(./images/icons.svg#icon-Vector);
   background-repeat: no-repeat;
   background-position: center;
   width: 16px;
