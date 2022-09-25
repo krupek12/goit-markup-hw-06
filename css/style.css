@@ -756,7 +756,7 @@ textarea {
 .chbox::before {
   display: block;
   content: "";
-  position: absolute;
+  position: relative;
   width: 16px;
   height: 16px;
   border: 1px solid var(--text-color-4);
