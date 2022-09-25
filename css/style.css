@@ -752,6 +752,13 @@ textarea {
   color: var(--logo-color);
   text-decoration: underline;
 }
+.chbox {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 54px;
+  bottom: 122px;
+}
 .form-txt-down::before {
   display: block;
   content: "";
